@@ -1916,9 +1916,9 @@ esm@^3.0.72:
   version "3.0.72"
   resolved "https://registry.yarnpkg.com/esm/-/esm-3.0.72.tgz#8f71b3f54b978bbbcbb9788f7f3569a36578c136"
 
-esmc@^0.6.0:
-  version "0.6.1"
-  resolved "https://registry.yarnpkg.com/esmc/-/esmc-0.6.1.tgz#eeef474f188bfa85554e2dc072fbde562ef9c504"
+esmc@^0.7.0:
+  version "0.7.0"
+  resolved "https://registry.yarnpkg.com/esmc/-/esmc-0.7.0.tgz#0820a6f7a125857f7189eeec946c86b1d1ef4798"
   dependencies:
     "@babel/code-frame" "^7.0.0-beta.55"
     "@babel/core" "^7.0.0-beta.55"
