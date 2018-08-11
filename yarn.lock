@@ -20,6 +20,12 @@
   dependencies:
     "@babel/highlight" "7.0.0-beta.55"
 
+"@babel/code-frame@^7.0.0-rc.1":
+  version "7.0.0-rc.1"
+  resolved "https://registry.yarnpkg.com/@babel/code-frame/-/code-frame-7.0.0-rc.1.tgz#5c2154415d6c09959a71845ef519d11157e95d10"
+  dependencies:
+    "@babel/highlight" "7.0.0-rc.1"
+
 "@babel/core@^7.0.0-beta.55":
   version "7.0.0-beta.55"
   resolved "https://registry.yarnpkg.com/@babel/core/-/core-7.0.0-beta.55.tgz#9e17c34b5ac855e427c98f570915a17fcc6bab4a"
@@ -281,6 +287,14 @@
 "@babel/highlight@7.0.0-beta.55":
   version "7.0.0-beta.55"
   resolved "https://registry.yarnpkg.com/@babel/highlight/-/highlight-7.0.0-beta.55.tgz#988653647d629c261dae156e74d5f0252ba520c0"
+  dependencies:
+    chalk "^2.0.0"
+    esutils "^2.0.2"
+    js-tokens "^3.0.0"
+
+"@babel/highlight@7.0.0-rc.1":
+  version "7.0.0-rc.1"
+  resolved "https://registry.yarnpkg.com/@babel/highlight/-/highlight-7.0.0-rc.1.tgz#e0ca4731fa4786f7b9500421d6ff5e5a7753e81e"
   dependencies:
     chalk "^2.0.0"
     esutils "^2.0.2"
@@ -1916,9 +1930,9 @@ esm@^3.0.72:
   version "3.0.72"
   resolved "https://registry.yarnpkg.com/esm/-/esm-3.0.72.tgz#8f71b3f54b978bbbcbb9788f7f3569a36578c136"
 
-esmc@^0.7.0:
-  version "0.7.0"
-  resolved "https://registry.yarnpkg.com/esmc/-/esmc-0.7.0.tgz#0820a6f7a125857f7189eeec946c86b1d1ef4798"
+esmc@^0.8.0:
+  version "0.8.1"
+  resolved "https://registry.yarnpkg.com/esmc/-/esmc-0.8.1.tgz#0d9f6706c9e80924f07f60c633d145290eddf273"
   dependencies:
     "@babel/code-frame" "^7.0.0-beta.55"
     "@babel/core" "^7.0.0-beta.55"
@@ -1932,8 +1946,10 @@ esmc@^0.7.0:
     esm "^3.0.72"
     fast-glob "^2.2.2"
     file-state-monitor "^1.0.0"
+    flow-bin "^0.78.0"
     flow-copy-source "^2.0.2"
     flow-remove-types "^1.2.3"
+    flow-reporter-codeframe "^1.1.6"
     fs-extra "^7.0.0"
     is-ci "^1.1.0"
     micromatch "^3.1.10"
@@ -2159,6 +2175,10 @@ flat-cache@^1.2.1:
     graceful-fs "^4.1.2"
     write "^0.2.1"
 
+flow-bin@^0.78.0:
+  version "0.78.0"
+  resolved "https://registry.yarnpkg.com/flow-bin/-/flow-bin-0.78.0.tgz#df9fe7f9c9a2dfaff39083949fe2d831b41627b7"
+
 flow-copy-source@^2.0.2:
   version "2.0.2"
   resolved "https://registry.yarnpkg.com/flow-copy-source/-/flow-copy-source-2.0.2.tgz#096e579a9bb63a38afc5d4dd68ac847a5be27594"
@@ -2175,6 +2195,19 @@ flow-remove-types@^1.2.3:
   dependencies:
     babylon "^6.15.0"
     vlq "^0.2.1"
+
+flow-reporter-codeframe@^1.1.6:
+  version "1.1.6"
+  resolved "https://registry.yarnpkg.com/flow-reporter-codeframe/-/flow-reporter-codeframe-1.1.6.tgz#e8b42771847272ec325937b298e00b375124a188"
+  dependencies:
+    "@babel/code-frame" "^7.0.0-rc.1"
+    ansi-colors "^2.0.5"
+    fs-extra "^7.0.0"
+    get-stdin "^6.0.0"
+    is-ci "^1.1.0"
+    mri "^1.1.1"
+    node-r_esm "^0.1.0"
+    supports-color "^5.4.0"
 
 for-in@^1.0.2:
   version "1.0.2"
@@ -2265,6 +2298,10 @@ get-caller-file@^1.0.1:
 get-stdin@^5.0.1:
   version "5.0.1"
   resolved "https://registry.yarnpkg.com/get-stdin/-/get-stdin-5.0.1.tgz#122e161591e21ff4c52530305693f20e6393a398"
+
+get-stdin@^6.0.0:
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/get-stdin/-/get-stdin-6.0.0.tgz#9e09bf712b360ab9225e812048f71fde9c89657b"
 
 get-stream@3.0.0, get-stream@^3.0.0:
   version "3.0.0"
@@ -3187,6 +3224,10 @@ node-pre-gyp@^0.10.0:
     rimraf "^2.6.1"
     semver "^5.3.0"
     tar "^4"
+
+node-r_esm@^0.1.0:
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/node-r_esm/-/node-r_esm-0.1.0.tgz#cd272e556bcc0246f4eb987526f35b5bff1eb640"
 
 nodent-runtime@^3.2.1:
   version "3.2.1"
