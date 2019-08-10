@@ -16,7 +16,7 @@
   },
   "dependencies": {
     "babel-eslint": "^10.0.0",
-    "eslint-config-airbnb": "^17.0.0",
+    "eslint-config-airbnb": "^18.0.0",
     "eslint-config-prettier": "^6.0.0",
     "eslint-plugin-flowtype": "^4.0.0",
     "eslint-plugin-import": "^2.13.0",
